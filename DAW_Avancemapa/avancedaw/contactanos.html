@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario de contacto</title>
+<link rel="stylesheet" href="css/contactanos.css">
+<script src="/Users/romju/Desktop/catedaw/js/formreg.js"></script>
+  
+  </head>
+
+
+<body>
+    <form action="" id="form">
+
+    <div class="contact_form">
+
+    <div class="formulario">
+        <h1>Formulario de contacto</h1>
+    <h3>Escríbenos y nos pondremos en contacto contigo</h3>
+
+
+
+    <p>
+    <label for="nombre" class="colocar_nombre">Nombre completo
+    <span class="obligatorio">*</span>
+    </label>
+    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+    </p>
+
+    <p>
+    <label for="email" class="colocar_email">Email
+    <span class="obligatorio">*</span>
+    </label>
+    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+    </p>
+
+    <p>
+    <label for="telefone" class="colocar_telefono">Número de teléfono
+    <span class="obligatorio">*</span>
+    </label>
+    <input type="tel" name="introducir_telefono" id="telefono" required="obligatorio" placeholder="Escribe tu teléfono">
+    </p>
+
+    <p>
+        <label for="depart" class="colocar_telefono">Departamento
+        <span class="obligatorio">*</span>
+        </label>
+        <input type="dep" name="introducir_departamento" id="depa" required="obligatorio" placeholder="Escribe el departamento desde donde nos escribes">
+        </p>
+
+    
+    <p>
+    <label for="asunto" class="colocar_asunto">Asunto
+    <span class="obligatorio">*</span>
+    </label>
+    <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
+    </p>
+
+    <p>
+    <label for="mensaje" class="colocar_mensaje">Mensaje
+    <span class="obligatorio">*</span>
+    </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>  
+            <button type="button" onclick="getData()">Enviar</button>
+    </form>
+    </div>
+    </div>
+    
+</body>
+</html>
+
